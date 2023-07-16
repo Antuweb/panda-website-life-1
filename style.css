@@ -1,0 +1,161 @@
+
+
+
+*{
+margin:0px;
+padding:0px;
+outline: 0px;
+
+/* Navigation Area */
+}
+.unorder { 
+    list-style: none;
+    display: flex;
+    gap:10px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgb(201, 185, 185)
+}
+
+.navigation{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding:5px 80px;
+    text-align: center;
+    background-color: #faf9f8;
+    
+}
+.logomake{
+
+    width: 80px;
+}
+ 
+.unorder :hover{
+color:black;
+}
+
+/* Banner Area Here */
+.banner-section{
+    display: flex;
+    
+    margin: 0px 80px;
+    padding:0px 20px;
+    background-color:#ffecf0;
+    align-items: center;
+}
+
+.banner-image{
+    width:250px;
+}
+.text-Area{
+    width:60%;
+    
+}
+.image-Area{
+   width:  40%;
+}
+.sub-title{
+    font-size: 11px;
+    margin: 10px 0px;
+
+   
+}
+
+.price{
+    color:orange
+}
+.button-amar{
+    background-color: navy;
+    border-radius: 5px;
+    color:white;
+    padding:6px;
+    border:none;
+    font-size: 9px;
+}
+
+
+/* shoes section here */
+.shoes-section{
+    padding:0px 80px;
+}
+.product{
+    width:200px;
+}
+.parents-div{
+    display: flex;
+    gap:0px 15px;
+}
+.single{
+    padding: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 2px;
+}
+.single{
+    font-size: 10px;
+    color:rgb(9, 33, 9)
+}
+
+/* bagpack here */
+.bagpack-section{
+ padding: 0px 80px;
+}
+.bag-product{
+    width:200px;
+}
+.parents-div{
+    display: flex;
+    gap:0px 15px;
+}
+.dubble{
+    padding: 10px;
+   
+    box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 2px;
+}
+.dubble{
+    font-size:10px;
+}
+.kuk-button{
+    background-color:red;
+    color:white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+}
+.div1{
+    height:160px;
+    width:20;
+    background-color: aqua;
+    margin:auto;
+    
+}
+
+/* footer area */
+.footer-area{
+    display: flex;
+    padding:0px 80px;
+    background-color: aquamarine;
+    margin:0px 80px;
+
+
+
+}
+.footer-text{
+    margin:auto;
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
